@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 
         <link rel="stylesheet" href="styles/email.css">
-
+      
 	<title></title>
 </head>
 
@@ -39,37 +39,24 @@
 
 
    
-  <section class="capital">
-      <h2> EMAIL <br> Please come in and stay awhile.</h2>
-  </section>
 
-<section class="first_description">
-  <p> I started this website  because Halloween has always been my favorite
-    holiday.  But during the last year, I started selling some of my favorite 
-    Halloween products, and they've become quite a hit </p>
-  <p> If you click on the Personal link, you can browse my favorite Halloween 
-    pictures, stories, and films.  And if you join my email list, I will keep 
-    you up-to-date on all things Halloween. </p>
-  </section>
-<section class="product">
-  <h2> Product of the week </h2>
+      <h2> <b> Please enter the following information.</b> </h2>
+      <section class="labels">
+          <form action="subscribe.html">
+          <label class="label_id">First name: </label>
+          <input type="text" required> <br>
+          <label class="label_id">Last name: </label>
+          <input type="text" required> <br>
+          <label class="label_id" id="email_label" >Email: </label>
+          <input id="email_input" type="email" required/> <br>
+          <label class="label_id" id="zip_label" >Zip Code: </label>
+           <input type="text" id="zip_input" pattern="\d{5}" maxlength="5" name="zip" placeholder="Optional but appreciated: 99999" /> <br> 
+          
+          <input id="sub_button" type="submit" value="Subscribe!">
+           </form>
 </section>
-   <section class="cat">
-     <a href="slides/products/cat.html">
-  <img src="images/cat1.jpg" alt="Cat" >
-</a>
 
-   </section>
-  
-  <a id="catlink" href="/cat">20" Deranged cat</a>
- 
- 
 
-     <h2 id="guarantee_title"> My Guarantee </h2>
-      <section class="guarantee"> 
-    If you aren't completely satisfied with everything you buy from my site,  
-    you can return them for a full refund. <b> No questions asked! </b> 
- </section>
      
     <footer>
         <section class="copyright">

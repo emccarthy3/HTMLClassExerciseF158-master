@@ -35,7 +35,7 @@ body {
   font-size: 100%;
   margin: 0 auto;
   width: 100%;
- 
+   height: 450px;
  
 }
 
@@ -93,12 +93,12 @@ li {
 #home_link{
     color:white;
 }
-.email a.email {
-  font-size: 14px;
-  color:orange;
-}
+
 #email_link:link{
     width:156px
+}
+#email_link{
+    color:white;
 }
 .home a.home{
     color: white;
@@ -126,7 +126,10 @@ li{
     padding:0;
     margin:0;
 }
-
+#statement{
+           margin-bottom: 155px;
+    margin-left: 195px;
+}
 
 #props, #costumes, #special_fx, #masks {
     display: block;
@@ -156,22 +159,7 @@ li{
 .goblin{
     margin-bottom: 10px;
 }
-.capital{
-    margin-left: 20px;
- margin-top:10px;
-    margin-bottom:0px;
-    font-size:14px;
 
-}
-.capital::first-letter {
-  font-size:200%
-}
-.cat{
-    margin-left:20px;
-    padding-left: 170px;
-    padding-bottom:100px;
-       
-}
 .first_description{
     margin-left: 20px;
 }
@@ -212,48 +200,15 @@ position:absolute;
     width: 160px;
     float:left
 }
-.label_id{
-    display: inline-block;
-}
-.labels{
-    margin-left: 190px;
-        margin-bottom: 200px;
-}
-label{
-    padding-top:10px;
-    padding-right: 10px;
-}
-#zip_label{
-    margin-left: 11px;
-}
-#email_label{
-     margin-left: 36px;
-}
+
+
 
 .clear{
     clear:both;
 }
-#sub_button{
-       margin-top: 10px;
-    margin-left: 95px;
-    width: 90px;
-    border-width: 1px;
-    border-color: black;
-    height: 25px;
-    background-color: orange;
-}
-a:hover{
-    color:green
-}
-input {
-    width: 350px;
-}
-.guarantee{
-    margin-left: 20px;
-    margin-bottom: 10px;
-    margin-top:0px;
-    padding-left: 170px;
-}
+
+
+
 .copyright{
     margin-bottom: 0px;
     padding-bottom: 10px;

@@ -18,6 +18,9 @@ header{
     border-bottom-style: solid;
 margin-bottom: 0px;   
 }
+a{
+    color:orange;
+}
 html { 
   background-image: url("../images/bats.gif"); 
 }
@@ -86,6 +89,9 @@ li {
 #product_link{
     
     color: white;
+}
+#home_link{
+    color:white;
 }
 .email a.email {
   font-size: 14px;
@@ -191,6 +197,7 @@ h2{
     padding-left: 170px;
         margin-bottom:0px;
         padding-bottom: 10px;
+        margin-left: 20px;
 }
 #guarantee_title{
     margin-left:20px;
@@ -205,17 +212,42 @@ position:absolute;
     width: 160px;
     float:left
 }
+.label_id{
+    display: inline-block;
+}
+.labels{
+    margin-left: 190px;
+        margin-bottom: 200px;
+}
+label{
+    padding-top:10px;
+    padding-right: 10px;
+}
+#zip_label{
+    margin-left: 11px;
+}
+#email_label{
+     margin-left: 36px;
+}
+
 .clear{
     clear:both;
 }
-
-a{
-    color:orange;
+#sub_button{
+       margin-top: 10px;
+    margin-left: 95px;
+    width: 90px;
+    border-width: 1px;
+    border-color: black;
+    height: 25px;
+    background-color: orange;
 }
 a:hover{
     color:green
 }
-
+input {
+    width: 350px;
+}
 .guarantee{
     margin-left: 20px;
     margin-bottom: 10px;

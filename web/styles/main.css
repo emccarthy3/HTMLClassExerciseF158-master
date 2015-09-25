@@ -27,6 +27,9 @@ body {
  
 }
 
+a{
+    color:orange;
+}
 li{
     margin-top: 0px;
 }
@@ -83,13 +86,14 @@ li {
   color:orange;
 }
 #email_link:link{
+    color:white;
     width:156px
 }
 #home_link:link{
     font-size: 14px;
     color:orange;
 }
-.email a.email{
+#email_link{
     color:white;
 }
 #home_link:hover, #decorate_link:hover, #home_link:hover, #product_link:hover, #email_link:hover, #personal_link:hover{
@@ -204,9 +208,6 @@ position:absolute;
     clear:both;
 }
 
-a{
-    color:orange;
-}
 a:hover{
     color:green
 }
