@@ -11,6 +11,9 @@ margin-bottom: 0px;
 }
 html { 
   background-image: url("../images/bats.gif"); 
+  margin:0;
+      width: 95%;
+    height: 95%;
 }
 body {
   background-color: #ffffff;

@@ -1,0 +1,284 @@
+
+@media screen and (max-width: 800px){
+    html { 
+   font-size:90%;
+ background: none !important; 
+
+}
+ body{ 
+       height:-100px;
+
+ }
+ p{
+     font-size:90%
+ }
+ 
+}
+
+
+@media screen and (max-width: 767px){
+    html { 
+   font-size:90%;
+ background: none !important; 
+
+}
+
+ body{ 
+       height:-100px;
+
+ }
+ p{
+     font-size:90%
+ }
+ .horizontal_bar{
+ 
+ }
+ #decorate_link, #home_link, #product_link, #email_link, #personal_link{
+ display:none;
+   
+}
+.hamburger-menu
+{
+    width:30px;
+    height:5px;
+    background-color:#111;
+    border-radius:5px;
+    position:relative;
+}
+
+.hamburger-menu:after, .hamburger-menu:before
+{
+    content: '';
+    width: 100%;
+    height:5px;
+    background-color:#111;
+    position:absolute;
+    border-radius:5px;
+}
+
+.hamburger-menu:after
+{
+    top:10px;
+}
+
+.hamburger-menu:before
+{
+    top:20px;
+}
+}
+
+header{
+    padding-top: .625em;
+    padding-bottom: .625em;
+    background-color:orange;
+    background: linear-gradient(45deg,white, orange, black ); 
+
+     border-bottom: black;
+    border-bottom-width: .125em;
+    border-bottom-style: solid;
+margin-bottom: 0em;   
+}
+html { 
+  background-image: url("../images/bats.gif"); 
+  height:100%;
+      width:100%;
+      margin:0;
+}
+body {
+  background-color: #ffffff;
+  max-width: 960px;
+   border-style: solid;
+    border-width: .3125em;
+  border-color: black;
+  box-shadow: .625em .625em .3125em #888;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  margin: 0 auto;
+  min-width: 95%;
+ min-height:95%;
+ 
+}
+
+
+li{
+    margin-top: 0em;
+}
+img{
+    float:left;
+    min-height:40px;
+    min-width:40px;
+  margin-bottom:0em;
+}
+div{
+  
+    font-size:120%;
+  
+ 
+}
+
+h1{
+  margin-top:0em;
+  margin-bottom: 0em;
+  
+ 
+}
+h2{
+    padding-bottom:1em;
+}
+.horizontal_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+      display: block;
+
+    height: 1.25em;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: .875em;
+    padding: .25em;
+     padding-bottom: .5em;
+     padding-top:.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top:0em;
+}
+
+li {
+    float: left;
+}
+
+
+.twenty{
+    width:20%
+}
+
+
+ 
+
+#product_link{
+   
+    color: white;
+}
+.home a.home {
+  font-size: .875em;
+  color:orange;
+}
+#email_link:link{
+    color:white;
+}
+#home_link:link{
+    font-size: .875em;
+    color:orange;
+}
+#email_link{
+    color:white;
+}
+#personal_link{
+    color:white;
+}
+#decorate_link{
+    color:white;
+}
+#home_link{
+    color:orange;
+}
+#home_link:hover, #decorate_link:hover, #home_link:hover, #product_link:hover, #email_link:hover, #personal_link:hover{
+    background-color: grey;
+    font-size: .875em;
+    color:black;
+}
+
+
+
+
+.horizontal_bar{
+    margin-top:0em;
+}
+
+.sidebar{
+       vertical-align: top;
+    top: 9.125em;
+    bottom: 0;
+    width: 10em;
+    float: left;
+     list-style-type: none;
+    padding: 0;
+  
+}
+li{
+    padding:0;
+    margin:0;
+}
+.move{
+     min-height: 50em;
+    margin-left: 15em;
+    width: 80%;
+}
+
+#props, #costumes, #special_fx, #masks {
+       display: block;
+    padding-bottom: .625em;
+    padding-top: .625em;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+    width: 10em;
+    height: 1.25em;
+    margin-left: .625em;
+    border-style: solid;
+    border-color: black;
+    border-width: .125em;
+    margin-top: .125em;
+    margin-bottom: .125em;
+    padding-right: 0em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.goblin{
+    margin-bottom: .625em;
+}
+.capital{
+    font-size:.875em;
+
+}
+.capital::first-letter {
+  font-size:200%
+}
+
+#catlink{
+    clear:both;
+    display: block;
+    color:orange;
+}
+
+.cat img{
+  min-height:40px;
+    min-width:40px;
+}
+
+
+.clear{
+    clear:both;
+}
+
+a:hover{
+    color:green
+}
+
+footer{
+  clear:both;
+     background: linear-gradient(45deg,black, orange, white ); 
+     background-color: orange;
+     border-top: black;
+    border-top-width: .125em;
+    border-top-style: solid;
+    text-align: center;
+       padding-bottom: 3.5em;
+    padding-top: 3.5em;
+    height: 100%;
+    font-size: 75%;
+}
